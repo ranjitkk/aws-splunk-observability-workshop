@@ -1,0 +1,20 @@
+[
+  {
+    "Effect": "Allow",
+    "Action": [
+      "s3:*",
+      "cloudformation:Describe*",
+      "cloudformation:Get*",
+      "cloudformation:List*",
+      "logs:DescribeLogGroups",
+      "logs:DescribeLogStreams",
+      "logs:GetLogEvents",
+      "ec2:*",
+      "eks:*",
+      "ec2-instance-connect:*"
+    ],
+    "Resource": [
+      "*"
+    ]
+  }
+]
