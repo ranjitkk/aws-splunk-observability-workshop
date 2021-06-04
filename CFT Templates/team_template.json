@@ -144,7 +144,7 @@
   
                       ]]}
                 },
-                "Tags": [{"Key": "Name", "Value": "SignalFxWorkshop-box"}]
+                "Tags": [{"Key": "Name", "Value": "SplunkWorkshop"}]
             },
             "CreationPolicy" : {
                     "ResourceSignal" : {
